@@ -10,7 +10,7 @@ from collections import Counter
 import json
 
 # --- Configuration ---
-CEREBRAS_API_KEY = "" # Placeholder for your Cerebras API Key
+CEREBRAS_API_KEY = "" 
 
 try:
     CEREBRAS_API_KEY = "csk-jwhm2wym255j2tk485c86wjnffkrxtey986d9fchmmvtv9fh"
@@ -126,7 +126,7 @@ def generate_system_prompt(user_name, mbti_type, financial_info, orientation_inf
 
     if narrative_mode_enabled:
         prompt += f"""
-    6.  **NARRATIVE MODE**: After your main response, you may suggest up to 3 short, follow-up options for the user. These options should keep the conversation going and be concise (5-10 words) Try to keep user's Mbti and financial status in mind while giving these options. Format them EXACTLY as follows on new lines, after your main reply, starting with the separator '---OPTIONS---':
+    6.  **NARRATIVE MODE**: After your main response, you may suggest up to 3 short, follow-up options for the user. These options should keep the conversation going and be concise (5-10 words) Try to keep user's Mbti in mind while giving these options. Format them EXACTLY as follows on new lines, after your main reply, starting with the separator '---OPTIONS---':
         ---OPTIONS---
         - First option
         - Second option
@@ -272,15 +272,15 @@ def generate_recommendations_with_ai(user_name, mbti_type, financial_info, orien
     {knowledge_base}
 
     INSTRUCTIONS:
-    Based on the user's four traits ({mbti_type}) and the knowledge base, generate 8 product recommendations for each trait.
-
+    Based on the user's four traits ({mbti_type}) and the knowledge base, generate 5 commonly used product recommendations for each trait.
+    
     OUTPUT FORMAT:
     Your response MUST be formatted with each trait on a new line, starting with the trait's letter, a colon, and then a comma-separated list of product names.
     For example:
-    E: Product 1, Product 2, Product 3, Product 4
-    N: Product A, Product B, Product C, Product D
-    F: Product X, Product Y, Product Z, Product W
-    P: Product M, Product N, Product O, Product P
+    E: Product description 1 (example product NAME), Product description 2 (example product NAME), Product description 3 (example product NAME), Product description 4 (example product NAME)
+    N: Product description 5 (example product NAME), Product description 6 (example product NAME), Product description 7 (example product NAME), Product description 8 (example product NAME)
+    F: Product description 9 (example product NAME), Product description 10 (example product NAME), Product description 11 (example product NAME), Product description 12 (example product NAME)
+    P: Product description 13 (example product NAME), Product description 14 (example product NAME), Product description 15 (example product NAME), Product description 16 (example product NAME)
     """
     try:
         client = Cerebras(api_key=CEREBRAS_API_KEY)
