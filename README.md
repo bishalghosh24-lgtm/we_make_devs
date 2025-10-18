@@ -33,7 +33,7 @@ When given a user's profile (e.g., **INTJ**), Llama didn't search a database. It
 
 This method completely **solved the cold-start problem by replacing data-driven prediction with AI-powered psychological reasoning.**
 
-### How This Could Improve Meta's Recommendation Systems
+## ✨ How This Could Improve Meta's Recommendation Systems
 
 Meta's platforms (Facebook, Instagram, Threads) face a massive cold-start problem with every new user. Their current solution is to explicitly ask users to select their interests ("Sports," "Fashion," "Cooking"), which is a slow, manual, and often inaccurate process.
 
@@ -46,14 +46,6 @@ Integrating Aura's psychological model could revolutionize this onboarding:
 3.  **Solving the "Explore" Page Dilemma**: The "Explore" or "For You" page for new users could be instantly populated with content that matches their psychological profile, dramatically increasing day-one retention. An **ESFP (Perceiving, Extroverted)** user would see a vibrant feed of travel, social events, and fashion, while an **ISTJ (Sensing, Judging)** user might see a more structured feed of "how-to" guides, historical content, and product reviews.
 
 By shifting from *data-driven prediction* to *AI-powered psychological reasoning* for new users, Meta could create a "zero-second" personalization experience that is stickier, more relevant, and far more effective than any cold-start model in use today.
-
------
-
-## ✨ About The Project
-
-In a world of generic chatbots, Aura stands out by focusing on **personalization and empathy**. The core idea is to create an AI companion that doesn't just answer questions, but understands your communication style and underlying traits. By integrating the MBTI framework, Aura adapts its tone, logic, and advice to align with your personality type, whether you're a logical INTJ or a creative ENFP.
-
-This project was built to explore the potential of large language models in creating nuanced, supportive, and persistent user experiences.
 
 -----
 
