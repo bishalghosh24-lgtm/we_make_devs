@@ -8,6 +8,8 @@ How you process information: Sensing (S) or Intuition (N).
 How you make decisions: Thinking (T) or Feeling (F).
 How you prefer to live: Judging (J) or Perceiving (P).
 
+More about the 16 personality types and MBTI: https://www.16personalities.com/personality-types
+
 ## 🧠 Primary Innovation + possible use cases in Meta Recommendation engine
 
 This project's core innovation is a recommendation engine that requires "zero user history" by operating from the "first principles" of consumer psychology, powered by Llama.
