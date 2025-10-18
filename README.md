@@ -1,6 +1,11 @@
 # 💖 Aura: Your Supportive Peer Mentor
 
-Aura is an empathetic AI chatbot designed to be a supportive peer and a safe space for reflection. Powered by the Cerebras Cloud API and personalized with the Myers-Briggs Type Indicator (MBTI), Aura tailors its conversations to your unique personality, providing a more meaningful and understanding interaction.
+Aura is an empathetic AI chatbot designed to be a supportive peer and a safe space for reflection. Powered by the Cerebras Cloud API and personalized with the Myers-Briggs Type Indicator (MBTI), Aura tailors its conversations to your unique personality, providing a more meaningful and understanding interaction. The MBTI was built on the theories of the Swiss psychiatrist Carl Jung. It looks at four key areas:
+
+Where you get your energy: Introversion (I) or Extraversion (E).
+How you process information: Sensing (S) or Intuition (N).
+How you make decisions: Thinking (T) or Feeling (F).
+How you prefer to live: Judging (J) or Perceiving (P).
 
 ## 🧠 Primary Innovation + possible use cases in Meta Recommendation engine
 
