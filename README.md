@@ -2,7 +2,7 @@
 
 Aura is an empathetic AI chatbot designed to be a supportive peer and a safe space for reflection. Powered by the Cerebras Cloud API and personalized with the Myers-Briggs Type Indicator (MBTI), Aura tailors its conversations to your unique personality, providing a more meaningful and understanding interaction.
 
-## 🧠 Primary Innovation: The Zero-History Recommendation Engine
+## 🧠 Primary Innovation + possible use cases in Meta Recommendation engine
 
 This project's core innovation is a recommendation engine that requires "zero user history" by operating from the "first principles" of consumer psychology, powered by Llama.
 
